@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block heading %}
+	Detail
+{% endblock heading %}
+
+{% block content %}
+	<ul>
+		<li>{{item.title}}</li>
+		<li>{{item.content}}</li>
+		<li>{{item.id}}</li>
+	</ul>
+{% endblock content %}
